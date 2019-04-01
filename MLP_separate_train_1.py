@@ -19,10 +19,10 @@ from MLP_separate_1 import Config, CitationRecNet
 
 def parse_args():
     parser = ArgumentParser(formatter_class=ArgumentDefaultsHelpFormatter, conflict_handler='resolve')
-    parser.add_argument('--path', default='C:\\Users\\Administrator\\PycharmProjects\\deeplearning\\Zheng\\data\\',
+    parser.add_argument('--path', default='data',
                         help='data path')
     parser.add_argument('--saved-model',
-                        default='C:\\Users\\Administrator\\PycharmProjects\\deeplearning\\Zheng\\saved_model\\',
+                        default='saved_mode',
                         help='data path')
     parser.add_argument('--layer1-dim', type=int, default=70, help='layer1 dimension')
     parser.add_argument('--layer2-dim', type=int, default=50, help='layer2 dimension')
